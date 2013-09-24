@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <cl/syslog/common.h>
+#include "common.h"
 
 namespace cl
 {

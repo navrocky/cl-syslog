@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <cl/syslog/message.h>
+#include "message.h"
 
 namespace cl
 {

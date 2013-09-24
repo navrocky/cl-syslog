@@ -3,9 +3,9 @@
 
 #include <memory>
 
-#include <cl/syslog/common.h>
-#include <cl/syslog/output.h>
-#include <cl/syslog/message.h>
+#include "common.h"
+#include "output.h"
+#include "message.h"
 
 namespace cl
 {

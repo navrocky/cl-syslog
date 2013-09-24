@@ -32,3 +32,4 @@ private:
 #endif
 
 #define SYSLOG_SCOPE_PROFILE cl::syslog::scope_profile __scope_profile(___syslog, __FUNC_INFO_);
+#define SYSLOG_SCOPE_PROFILE_MSG(msg) cl::syslog::scope_profile __scope_profile(___syslog, msg);

@@ -5,8 +5,8 @@
 
 #include <boost/shared_ptr.hpp>
 
-#include <cl/syslog/filter.h>
-#include <cl/syslog/message.h>
+#include "filter.h"
+#include "message.h"
 
 namespace cl
 {

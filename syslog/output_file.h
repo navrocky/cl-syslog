@@ -3,7 +3,7 @@
 
 #include <fstream>
 
-#include <cl/syslog/output.h>
+#include "output.h"
 
 namespace cl
 {

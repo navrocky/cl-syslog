@@ -9,6 +9,8 @@ find_package( Boost REQUIRED COMPONENTS
 )
 include_directories(${Boost_INCLUDE_DIRS})
 
+find_package(Threads)
+
 set(TARGET clsyslog)
 
 set(HEADERS
@@ -39,4 +41,4 @@ set(SOURCES
 
 add_library(${TARGET} STATIC ${SOURCES})
 
-target_link_libraries(${TARGET} ${Boost_LIBRARIES})
+target_link_libraries(${TARGET} ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})

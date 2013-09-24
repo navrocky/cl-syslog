@@ -7,8 +7,8 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/lexical_cast.hpp>
 
-#include <cl/syslog/common.h>
-#include <cl/syslog/manager.h>
+#include "common.h"
+#include "manager.h"
 
 #define SYSLOG_MODULE(a) const cl::syslog::module ___syslog(#a);
 

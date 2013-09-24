@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <cl/syslog/output.h>
+#include "output.h"
 
 namespace cl
 {
